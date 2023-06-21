@@ -63,7 +63,7 @@ spec:
     - description: Fully Qualified Output Image
       name: output-image
       type: string
-    - default: .
+    - default: base/ubi8-python-3.8
       description: The path to your source code
       name: path-context
       type: string
