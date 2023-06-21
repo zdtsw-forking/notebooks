@@ -24,7 +24,7 @@ spec:
   - name: output-image
     value: quay.io/redhat-user-workloads/open-data-hub-tenant/opendatahub/nb-base-ubi8-python-3-8:{{revision}}
   - name: path-context
-    value: .
+    value: base/ubi8-python-3.8
   - name: revision
     value: '{{revision}}'
   pipelineSpec:
